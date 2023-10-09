@@ -1,0 +1,705 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Leckerli+One&family=Montserrat:wght@300;400;800;900&display=swap');
+
+.header {
+    background-image: url(Images/header-bg.png);
+    background-blend-mode: overlay;
+    background-color: #0000009c;
+    height: 902px;
+}
+
+.navbar {
+    position: sticky !important;
+    top: 0%;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 1.5em;
+}
+
+.navbar .nav {
+    color: white;
+}
+
+.active::after {
+    content: "";
+    top: -3em;
+    left: 1px;
+    width: 100%;
+    height: 6px;
+    background-color: #0081ff;
+    position: absolute;
+}
+
+.nav-link {
+    position: relative;
+    color: #ffffff !important;
+}
+
+.content {
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-weight: 900;
+}
+
+.hero {
+    padding-top: 10em;
+}
+
+.content span {
+    color: #0081ff;
+}
+
+.content .first-child {
+    font-family: 'Leckerli One', cursive;
+    font-size: 30px;
+    font-weight: 300;
+}
+
+.content .second-child {
+    font-weight: 500;
+    font-size: 30px;
+}
+
+.content h1 {
+    font-size: 52px;
+    font-weight: 600;
+}
+
+.content p {
+    font-size: 15px;
+    font-weight: 200;
+    font-family: 'Lato', sans-serif;
+    padding-right: 16em;
+}
+
+.primery-button {
+    font-size: 14px;
+    border-radius: 50px;
+    padding: 5px 15px 5px 15px;
+    background-color: #0081ff;
+    color: #fff;
+    margin-top: 3em;
+    border: 0px;
+}
+
+.hero-img {
+    padding-top: 4em;
+}
+
+.content-section-1 {
+    background-color: #0081ff;
+    display: flex;
+    flex-wrap: wrap;
+    color: #fff;
+}
+
+.content-section-1 .part-1 {
+    width: 50%;
+}
+
+.content-section-1 .part-2 {
+    width: 50%;
+
+}
+
+.content-section-1 .part-1 h3 {
+    font-size: 33px;
+    font-family: 'Leckerli One', cursive;
+}
+
+.content-section-1 .part-1 h4 {
+    font-size: 19px;
+    font-weight: bold;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.content-section-1 .part-1 p {
+    font-size: 17px;
+    font-family: lato;
+}
+
+.content-section-1 .part-1 button {
+    background-color: #3b4374;
+    color: white;
+}
+.content-section-1 .container{
+    display: flex;
+    gap: 4em;
+}
+
+/* @media (max-width:992px) {
+    .navbar .nav {
+        display: none;
+    }
+    .logo {
+        margin: auto;
+    }
+} */
+
+
+/*----third-section---- */
+.services{
+    padding: 6em 0em 6em 0em;
+    background-color: #007AF3;
+}
+.services h3{
+    font-family: 'Leckerli One', cursive;
+    text-align: center;
+    color: #fff;
+}
+.services h4{
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #ffffff;
+}
+.main-services{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 4em;
+    padding-top: 2em;
+}
+.cacontent-service{
+    display: flex;
+}
+.services-text{
+    flex-wrap: wrap;
+    display: flex;
+    margin-left: 2em;
+}
+.services-text h2{
+    font-size: 19px;
+    text-transform: uppercase;
+    line-height: 30px;
+    color: #fff;
+}
+.services-text p{
+    font-size: 16px;
+    color: #fff;
+}
+
+.profile{
+    padding: 6em 0em 0em 0em;
+}
+.profile h3{
+    font-family: 'Leckerli One', cursive;
+    text-align: center;
+    color: #000000;
+}
+.profile h4{
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #000000;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding-top: 2em;
+}
+.img-1 img{
+    background-blend-mode: overlay;
+    background-color: #000000;
+    height: 44%;
+    width: 761px;
+}
+.img-1-grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.img-1-grid img{
+    width: 100%;
+    height: 95%;
+}
+
+.img-2{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.img-2 img{
+    height: 75.8%;
+    width: 447px;
+}
+.img-layer-2{
+    height: 193px !important;
+    width: 311px !important;
+}
+.img-layer-1{
+    height: 53.21% !important;
+    width: 311px !important;
+}
+
+
+.Client{
+    background-image: url(Images/Layer\ 3.png);
+    background-blend-mode: overlay;
+    background-color: #000000cc;
+    padding-bottom: 6em;
+    margin-top: -13em;
+}
+.Client h3{
+    font-family: 'Leckerli One', cursive;
+    text-align: center;
+    color: #fff;
+    padding-top: 4em;
+}
+.Client h4{
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #fff;
+}
+.Client p{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    color: #fff;
+    white-space: break-spaces;
+    line-height: 30px;
+}
+.client-img{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 5em;
+}
+.client-img-1{
+    width: 100%;
+}
+.blog{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 44px;
+}
+
+.blog h3{
+    font-family: 'Leckerli One', cursive;
+    text-align: left;
+    color: #000000;
+    padding-top: 4em;
+}
+.blog h4{
+    font-weight: 700;
+    font-size: 30px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    color: #000000;
+}
+.blog p{
+    font-weight: 400;
+    font-size: 14px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: left;
+    color: #000;
+    white-space: pre-line;
+    padding-top: 2em;
+   
+}
+.text-col h2{
+    font-size: 17px;
+    text-align: center;
+    font-weight: 400;
+    white-space: pre-line;
+    color: #fff;
+}
+.text-col h3{
+    font-size: 14px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: #fff;
+}
+.color-box{
+    background: blue;
+    padding: 2em 2em 2em 2em;
+    margin-top: 3em;
+}
+
+.bottom-col{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 33px;
+}
+.parent-col-1{
+    margin-top: 2em;
+    background-color: #EAEAEA;
+    padding: 2em 0em 2em 0em;
+}
+.parent-col-2{
+    margin-top: 2em;
+    background-color: #000000;
+    padding: 2em 0em 2em 0em;
+}
+.bottom-col h2{
+    color: #000;
+    font-size: 16px;
+    font-weight: 700;
+}
+.bottom-col h3{
+    color: #000;
+    font-size: 26px;
+    padding-top: 2em;
+}
+.parent-col-2 h2{
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 700;
+}
+.parent-col-2 h3{
+    color: #ffffff;
+    font-size: 26px;
+    padding-top: 2em;
+}
+.text-img{
+    background-image: url(Images/Layer\ 2.png);
+    background-blend-mode: overlay;
+    background-color: #000000cc;
+    margin-top: 11em;
+    height: 354px;
+    background-position: bottom;
+}
+
+.text-img h2{
+    font-size: 17px;
+    padding-top: 2em;
+    text-align: center;
+    color: #fff;
+}
+.text-img h3{
+    font-size: 32px;
+    padding-top: 3em;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: #fff;
+}
+.text-img p{
+    text-align: center;
+    font-size: 14px;
+    font-weight: 300;
+    color: #fff;
+    padding-left: 4em;
+    padding-right: 4em;
+}
+.text-color h2{
+    text-align: center;
+    font-size: 15px;
+    font-weight: 500;
+    color: #fff;
+}
+.text-color h3{
+    font-size: 24px;
+    text-align: center;
+    font-family: 'Montserrat';
+    font-weight: 700;
+    padding-top: 1em;
+    color: #fff;
+}
+.text-color{
+    background: #E91D62;
+    margin-top: 2em;
+    padding: 1em 4em 1.4em 4em;
+}
+.text-color p{
+    font-size: 13px;
+    text-align: center;
+    color: #fff;
+    padding-top: 1em;
+}
+
+footer {
+    background:url(Images/Layer\ 4.png); 
+}
+
+.footer-container {
+    background:rgba(0, 0, 0, 0.9) 
+}
+
+.footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.Address {
+    margin-left: 50px;
+}
+
+.contact .mail {
+    display: flex;
+}
+
+.contact i {
+    font-size: 30px;
+    margin: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+/*------------------- For-Mobile -------------*/
+
+@media (max-width: 768px) {
+    .navbar{
+        padding-top: 1em;
+    }
+
+    .logo {
+        width: 40px;
+    }
+    .navbar-nav{
+        position: relative;
+        left: 3em;
+        right: 0px
+    }
+    .active::after {
+        content: "";
+        top: 0px;
+        left: 0px;
+        width: 0px;
+        height: 0px;
+        background-color: transparent;
+        position: absolute;
+    }
+    
+    .header{
+        overflow: hidden;
+    }
+    .content h1{
+        font-size: 30px;
+    }
+    .content .second-child{
+        font-size: 24px;
+    }
+    .hero{
+        display: block !important;
+        padding-top: 2em;
+    }
+    .hero-img{
+        padding: 0px;
+    }
+    .content p{
+        padding: 0px;
+    }
+    .main-services{
+        grid-template-columns: 100%;
+    }
+
+    .content-section-1 .container{
+        display: block;
+    }
+    .content-section-1 .part-1{
+        width: 100%;
+        padding: 0px;
+    }
+    .p-5{
+        padding: 2em 0em 2em 0em !important;
+    }
+    .container .pl-5, .px-5{
+        padding: 0px !important;
+    }
+    .content-section-1 .part-2{
+        width: 100%;
+    }
+    .Client{
+        margin-top: 0px;
+    }
+    .gallery{
+        display: block;
+    }
+    .img-1 img{
+        width: 100%;
+    }
+    .img-1-grid{
+        display: block;
+    }
+    .img-2{
+        display: block;
+    }
+    .img-2 img{
+        width: 100%;
+    }
+    .img-layer-1{
+        width: 100% !important;
+    }
+    .img-layer-2{
+        width: 100% !important;
+    }
+    .client-img{    
+        grid-template-columns: 100%;
+        padding-left: 5em;
+        gap: 31px;
+    }
+    .blog{
+        grid-template-columns: 100%;
+    }
+    .bottom-col{
+        grid-template-columns: 100%;
+        gap: 0px;
+    }
+    .text-img{
+        margin: 0px;
+    }
+    .footer {
+        grid-template-columns: 1fr;
+    }
+} 
+
+/*--------------For-tab------------*/
+
+@media (min-width: 769px) and (max-width: 920px){
+    .hero{
+        display: block !important;
+        padding-top: 2em;
+    }
+    .active::after {
+        content: "";
+        top: 0px;
+        left: 0px;
+        width: 0px;
+        height: 0px;
+        background-color: transparent;
+        position: absolute;
+    }
+    .content .second-child{
+        font-size: 29px;
+    }
+    .hero-img{
+        padding: 0em 0em 0px 22em;
+        margin-top: -13em;
+    }
+
+    .content-section-1 .container{
+        gap: 0px;
+        display: block;
+    }
+    .content-section-1 .part-1{
+        width: 100%;
+    }
+    .content-section-1 .part-2{
+        width: 100%;
+    }
+    .part-2 .mt-5{
+        margin-top: 1rem !important;
+    }
+    .main-services{
+        grid-template-columns: 100%;
+    }
+    .Client{
+        margin-top: 0px;
+    }
+    .gallery{
+        display: block;
+    }
+    .img-1 img{
+        width: 100%;
+    }
+    .img-1-grid{
+        display: block;
+    }
+    .img-2{
+        display: block;
+    }
+    .img-2 img{
+        width: 100%;
+    }
+    .img-layer-1{
+        width: 100% !important;
+    }
+    .img-layer-2{
+        width: 100% !important;
+    }
+    .client-img{
+        padding-left: 16em;
+        grid-template-columns: 100%;
+        gap: 3em;
+    }
+    .blog{
+        display: block;
+    }
+    .text-img{
+        margin-top: 6em;
+    }
+       .footer {
+        grid-template-columns: 1fr;
+    }
+}
+
+/*--------------For-LandScap-tab------------*/
+@media (min-width: 921px) and (max-width: 1180px){
+    .hero{
+        display: block !important;
+        padding-top: 2em;
+    }
+    .active::after {
+        content: "";
+        top: 0px;
+        left: 0px;
+        width: 0px;
+        height: 0px;
+        background-color: transparent;
+        position: absolute;
+    }
+    .content .second-child{
+        font-size: 29px;
+    }
+    .hero-img{
+        padding: 0em 0em 0px 22em;
+        margin-top: -13em;
+    }
+
+    .content-section-1 .container{
+        gap: 0px;
+        display: block;
+    }
+    .content-section-1 .part-1{
+        width: 100%;
+    }
+    .content-section-1 .part-2{
+        width: 100%;
+    }
+    .part-2 .mt-5{
+        margin-top: 1rem !important;
+    }
+    .main-services{
+        grid-template-columns: 100%;
+    }
+    .Client{
+        margin-top: 0px;
+    }
+    .gallery{
+        display: block;
+    }
+    .img-1 img{
+        width: 100%;
+    }
+    .img-1-grid{
+        display: block;
+    }
+    .img-2{
+        display: block;
+    }
+    .img-2 img{
+        width: 100%;
+    }
+    .img-layer-1{
+        width: 100% !important;
+    }
+    .img-layer-2{
+        width: 100% !important;
+    }
+    .client-img{
+        padding-left: 16em;
+        grid-template-columns: 100%;
+        gap: 3em;
+    }
+}
